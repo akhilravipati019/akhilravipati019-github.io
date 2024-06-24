@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="AkhilRavipati.css">
+    <script src="https://kit.fontawesome.com/198e28ef12.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="box">
+            <nav>
+                <img src="AkhilRavipatiDOCS/AkhilRavipatiImg1.png" alt="">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="clz()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="opn()"></i>
+            </nav>
+            <div class="header-txt">
+                <p>Frontend Developer</p>
+                <h1>Hi, I'm <span>Akhil</span> Ravipati</h1>
+                <a class="CV" href="AkhilRavipatiDOCS/AkhilRavipatiCV.pdf" download >Download CV</a>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="box">
+            <div class="row">
+                <div class="about-col1">
+                    <img src="AkhilRavipatiDOCS/AkhilRavipatiImg2.jpeg" alt="">
+                </div>
+                <div class="about-col2">
+                    <h1 class="title">About Me</h1>
+                    <p>Hi, I'm Akhil Ravipati, a skilled Frontend Developer from IIT Guwahati. I specialize in creating
+                        dynamic and responsive web applications with a focus on user experience and performance.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="tab('skills')">Skills</p>
+                        <p class="tab-links" onclick="tab('exp')">Experience</p>
+                        <p class="tab-links" onclick="tab('edu')">Education</p>
+                        <p class="tab-links" onclick="tab('pro')">Projects</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UX/UI</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Devlopment</span><br>HTML ,CSS ,JavaScript</li>
+                            <li><span>Programming languages</span><br>C ,C++ ,Python</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="exp">
+                        <ul>
+                            <li><span>2024-Current</span><br>Did several projects on web development</li>
+                            <li><span>2023-24</span><br>Worked on College fest website</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="edu">
+                        <ul>
+                            <li><span>2023-Current</span><br>Btech<br>IIT Guwahati</li>
+                            <li><span>2022-23</span><br>Drop Year<br>Tirumala IIT Academy</li>
+                            <li><span>2020-22</span><br>Intermediate(11th & 12th,Maths stream)<br>Tirumala IIT Academy
+                            </li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="pro">
+                        <ul>
+                            <li><span>Web Development</span><br>Gym Website (using HTML &CSS)<br>Portfolio Website (HTML
+                                ,CSS &Javascript)</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="box">
+            <h1 class="title">Services</h1>
+            <div class="serlist">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>
+                        Get a stunning, user-friendly website that makes your business stand out. We design custom sites
+                        to attract and engage your audience. Let us bring your online vision to life.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX design</h2>
+                    <p>
+                        Transform your digital presence with our expert UX/UI design services. We create intuitive,
+                        engaging interfaces that enhance user experience and boost customer satisfaction.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-video"></i>
+                    <h2>Video Editing</h2>
+                    <p>
+                        Elevate your video content with our professional editing services. We craft polished videos that
+                        capture attention and convey your message effectively
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="box">
+            <div class="row">
+                <div class="conleft">
+                    <h1  class="title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>ravipatiakhil5656@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i></i>+91 7396721286</p>
+                    <div class="icons">
+                        <a href="https://www.youtube.com/@akhilravipati3672"><i class="fa-brands fa-youtube"></i></a>
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/akhil.ravipati/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/akhilravipati01/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="conright">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="5" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>Copyright &#169; Akhil Ravipati.Made with Love</p>
+    </div>
+    <script src="AkhilRavipati.js"></script>
+</body>
+
+</html>
